@@ -80,6 +80,13 @@ public class MaquinaExpendedoraSimple {
     }
     
     /**
+     * Este metodo se encarga de vaciar la maquina
+     */
+    public int vaciarMaquina() {
+        return totalDineroAcumulado = 0;
+    }
+    
+    /**
      * Imprime un billete para el cliente actual
      */
     public void imprimirBillete() {
