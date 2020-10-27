@@ -57,8 +57,14 @@ public class MaquinaExpendedoraSimple {
     public int gettotalDineroAcumulado() {
         return totalDineroAcumulado;
     }
-
-
+    
+    /**
+     * Modifica el precio del billete
+     */
+    public int CambioprecioBillete(int precioDelBillete) {
+        return precioBillete = precioDelBillete;
+    } 
+   
     /**
      * Simula la introduccion de dinero por parte del cliente actual
      */
