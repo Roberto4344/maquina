@@ -82,8 +82,8 @@ public class MaquinaExpendedoraSimple {
     /**
      * Este metodo se encarga de vaciar la maquina
      */
-    public int vaciarMaquina() {
-        return totalDineroAcumulado = 0;
+    public void vaciarMaquina() { 
+         totalDineroAcumulado = 0;
     }
     
     /**
